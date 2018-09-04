@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+h1 {
+	color:blue;
+}
+table{
+	
+	float:left;
+}
+
+img {
+		float:left;
+	
+	 border-radius: 50%;
+	height : 150px;
+	width:150px;
+	
+}

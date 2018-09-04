@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>CapStore Application</title>
+<link rel="stylesheet" href="style.css">
+<script src="../scripts/validator.js"></script>
+</head>
+<body>
+<h1 align="center">Capstore Application</h1>
+<hr>
+<form id="form" method="POST" action="/validateUser" onSubmit="return validator();">
+<img  src="../images/Koala.jpg" ></img>
+<fieldset>
+<legend> Login Form </legend>
+<table>
+<tr> UserName </tr>
+<tr> <input name="user" type="text"> </tr>
+<br/>
+<br/>
+<tr> PassWord </tr>
+<tr> <input name="pass" type="password"> </tr>
+<br/>
+<br/>
+<tr><input type="submit" > </tr>
+</table>
+</fieldset>
+</form>
+<p id="usrErrMsg">
+</p>
+</body>
+
+</html>
